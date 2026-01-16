@@ -267,6 +267,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1165,6 +1272,16 @@
 	)
 	(wire
 		(pts
+			(xy 65.405 86.36) (xy 76.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8e4f82-ed70-4192-93f3-4ce2a0412885")
+	)
+	(wire
+		(pts
 			(xy 130.81 36.195) (xy 130.81 31.115)
 		)
 		(stroke
@@ -1205,6 +1322,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9667c08-b87f-47b7-8621-60a829906954")
+	)
+	(wire
+		(pts
 			(xy 88.9 27.94) (xy 88.9 31.115)
 		)
 		(stroke
@@ -1232,6 +1359,16 @@
 			(type default)
 		)
 		(uuid "c8d45b27-6537-4b06-8f5f-5c3482d95960")
+	)
+	(wire
+		(pts
+			(xy 65.405 80.645) (xy 65.405 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caea72c8-e5a5-4280-abb8-0d918e9c5796")
 	)
 	(wire
 		(pts
@@ -1313,6 +1450,38 @@
 		)
 		(uuid "fafd1482-106e-4ef2-9ccb-d53cb2a795b2")
 	)
+	(wire
+		(pts
+			(xy 52.07 80.645) (xy 52.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe61be6a-2035-4341-b4bf-1ed4e681017e")
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 76.2 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "687399ff-717e-4097-9803-c59a69bc64ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.6928 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 104.775 58.42 0)
@@ -1348,6 +1517,28 @@
 		(uuid "a61f61a7-9b4f-4e77-8c9a-95b9f77202c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.2678 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 76.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8f07caa-df02-4692-8730-f73dda5c9e57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7533 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,6 +1609,73 @@
 			(project ""
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/af713706-d5e1-4c6b-8766-6c5e5054509f"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 65.405 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4612c7ba-2551-463b-8d54-a0c1379f6b87")
+		(property "Reference" "TP19"
+			(at 67.31 76.0729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 67.31 78.6129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 70.485 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.485 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 65.405 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b97746b0-5de2-446a-bbb7-f4d0da8f07a5")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/af713706-d5e1-4c6b-8766-6c5e5054509f"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -1554,6 +1812,73 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/af713706-d5e1-4c6b-8766-6c5e5054509f"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "634002fd-a08e-43f4-821d-fd76bdb4c9b1")
+		(property "Reference" "TP18"
+			(at 53.975 76.0729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.975 78.6129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 57.15 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4053b3d-bfd4-4507-8a66-ab1dc59b3255")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/af713706-d5e1-4c6b-8766-6c5e5054509f"
+					(reference "TP18")
 					(unit 1)
 				)
 			)

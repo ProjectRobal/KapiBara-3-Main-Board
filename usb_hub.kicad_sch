@@ -1943,6 +1943,18 @@
 		(uuid "0434ca45-759d-4d2b-8205-f5a1fcc4ce48")
 	)
 	(junction
+		(at 251.46 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0737f64a-189b-4f36-8ca1-ad16a9139909")
+	)
+	(junction
+		(at 229.87 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09611175-fce3-41be-b0db-57361d0cc979")
+	)
+	(junction
 		(at 224.155 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1995,6 +2007,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c2c9afc-cf7c-4da1-aa57-29f06f19184e")
+	)
+	(junction
+		(at 240.665 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9cf9e28-bf01-4d93-a616-8768a8173bb1")
+	)
+	(junction
+		(at 192.405 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acce6a2d-2e2b-485e-8a6d-7e267ab8b321")
 	)
 	(junction
 		(at 219.075 27.94)
@@ -2091,6 +2115,16 @@
 			(type default)
 		)
 		(uuid "1aa4c1a1-c7bc-46cf-a020-29243b188a31")
+	)
+	(wire
+		(pts
+			(xy 229.87 27.94) (xy 240.665 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d513ee1-5df1-4124-bf2f-0480bcb79617")
 	)
 	(wire
 		(pts
@@ -2274,6 +2308,16 @@
 	)
 	(wire
 		(pts
+			(xy 192.405 23.495) (xy 192.405 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f2696f-4ddd-49b6-bdc3-1c7b717fe5eb")
+	)
+	(wire
+		(pts
 			(xy 39.37 137.16) (xy 44.45 137.16)
 		)
 		(stroke
@@ -2424,6 +2468,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 27.94) (xy 262.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a38d11-7cf6-458b-a9f5-b07ec07b036b")
+	)
+	(wire
+		(pts
 			(xy 137.16 127) (xy 137.16 142.875)
 		)
 		(stroke
@@ -2564,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.665 27.94) (xy 251.46 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4eb04d-90df-43f8-825c-66441d74e6e2")
+	)
+	(wire
+		(pts
 			(xy 125.095 142.24) (xy 125.095 132.08)
 		)
 		(stroke
@@ -2614,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 38.1) (xy 243.84 52.07)
+			(xy 243.84 46.99) (xy 243.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3053,6 +3117,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 192.405 23.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ffb763-a350-4edd-b95c-423b0a268848")
+		(property "Reference" "TP12"
+			(at 194.31 18.9229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 21.4629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 197.485 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.485 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 192.405 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c77a60e-6fae-4015-8589-6769e00c5860")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 206.375 35.56 0)
 		(unit 1)
@@ -3181,6 +3312,142 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.665 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ea91980-080c-4f82-8a3a-dd68f3bb73eb")
+		(property "Reference" "#PWR075"
+			(at 240.665 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.665 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.665 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.665 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ce22a7c-100f-47a8-91db-a61fb6a08bd2")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.665 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "564b9faf-ffc2-4139-9e8d-9bc590b435e0")
+		(property "Reference" "C12"
+			(at 244.475 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 244.475 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 241.6302 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.665 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.665 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e05142c-b634-420c-9492-fcc0c401e2a9")
+		)
+		(pin "1"
+			(uuid "0523fbe6-62ce-44dd-806b-52bebe97ab24")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3924,6 +4191,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 251.46 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f19148-42f5-4d46-8822-75c2e2b4e56f")
+		(property "Reference" "C13"
+			(at 255.27 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 255.27 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 252.4252 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28bf8b9d-8fab-46c1-81db-b9964ca47bf7")
+		)
+		(pin "1"
+			(uuid "67df2dbe-8acd-489f-9544-600e6bad6c02")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 238.125 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4322,6 +4659,76 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a32e54bd-f088-42e8-90fb-b8dd48fb26e7")
+		(property "Reference" "C14"
+			(at 266.7 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 266.7 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 263.8552 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6633aa5a-4734-4edf-a573-adf0fc32f207")
+		)
+		(pin "1"
+			(uuid "8b37f3a6-3653-4208-a4a2-6b309e96ce28")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4732,6 +5139,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 251.46 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e42dd4-32a9-4449-8b78-73715022224b")
+		(property "Reference" "#PWR076"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d024eb4-5b6e-44e4-8e9a-afb15afbcdfd")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 219.075 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4932,7 +5405,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 243.84 38.1 0)
+		(at 243.84 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4941,7 +5414,7 @@
 		(fields_autoplaced yes)
 		(uuid "dadf65fe-5824-46a8-bfdb-768684fba042")
 		(property "Reference" "#PWR041"
-			(at 243.84 41.91 0)
+			(at 243.84 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +5423,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 33.02 0)
+			(at 243.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +5431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 38.1 0)
+			(at 243.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 38.1 0)
+			(at 243.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +5449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 243.84 38.1 0)
+			(at 243.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,6 +6148,72 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff3cb52b-1e74-4b79-ae85-fa75728172d9")
+		(property "Reference" "#PWR077"
+			(at 262.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c20f1c-25c5-4019-a196-4ef0b20b18a4")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/510fde53-851f-4094-8df2-53b9f43352e4"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

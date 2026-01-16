@@ -5,6 +5,113 @@
 	(uuid "aa447047-ce16-4796-86ed-485385715fc3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1707,6 +1814,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2873,6 +3148,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.075 143.51) (xy 219.075 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0344d25f-2e25-4d3f-90f8-9ea1633707d5")
+	)
+	(wire
+		(pts
 			(xy 198.12 84.455) (xy 208.28 84.455)
 		)
 		(stroke
@@ -3013,6 +3298,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.375 149.86) (xy 229.235 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d09eed7-d474-403e-bff7-ef6a9173f285")
+	)
+	(wire
+		(pts
 			(xy 130.81 97.155) (xy 130.81 99.695)
 		)
 		(stroke
@@ -3030,6 +3325,26 @@
 			(type default)
 		)
 		(uuid "0eca2b9c-71a9-4312-b7fa-8ac32bd932ba")
+	)
+	(wire
+		(pts
+			(xy 46.355 177.8) (xy 29.21 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe8c5d3-c4e4-4b24-a2e8-57e654c2037f")
+	)
+	(wire
+		(pts
+			(xy 165.735 177.8) (xy 148.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1008f5dd-55cb-43d6-8874-8b0862ff9523")
 	)
 	(wire
 		(pts
@@ -3060,6 +3375,16 @@
 			(type default)
 		)
 		(uuid "12417daf-2ea4-476c-999c-5a46df9fa6ba")
+	)
+	(wire
+		(pts
+			(xy 180.975 127.635) (xy 180.975 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150152f1-5032-439d-840a-57dbcaa9cf3e")
 	)
 	(wire
 		(pts
@@ -3143,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 177.8) (xy 148.59 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa74dd9-f0cc-4758-b8fa-da53bb8538a0")
+	)
+	(wire
+		(pts
 			(xy 130.81 122.555) (xy 130.81 125.095)
 		)
 		(stroke
@@ -3213,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.995 173.99) (xy 60.96 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259db6aa-2db4-4b26-a147-5eb08c4c9b6b")
+	)
+	(wire
+		(pts
 			(xy 141.605 146.05) (xy 141.605 120.015)
 		)
 		(stroke
@@ -3260,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "2ab35751-f46b-4392-a045-1ef71acdf414")
+	)
+	(wire
+		(pts
+			(xy 168.275 133.985) (xy 191.135 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf50696-0e23-459a-98d6-49a010392a38")
 	)
 	(wire
 		(pts
@@ -3333,6 +3688,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 127.635) (xy 205.74 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e59c46-ea29-4439-b534-7a7251b4f8bb")
+	)
+	(wire
+		(pts
+			(xy 45.72 151.765) (xy 19.685 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3257b37b-8df6-4405-9ebd-6c8223157535")
+	)
+	(wire
+		(pts
 			(xy 118.11 104.775) (xy 118.11 107.315)
 		)
 		(stroke
@@ -3340,6 +3715,16 @@
 			(type default)
 		)
 		(uuid "32a361e9-95a3-4362-922a-0270e41e57d3")
+	)
+	(wire
+		(pts
+			(xy 180.975 130.81) (xy 191.135 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a9aa12-c9e5-4ebd-9bb5-4e1f55860d16")
 	)
 	(wire
 		(pts
@@ -3513,6 +3898,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 158.75) (xy 148.59 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436a9579-746c-4234-bda8-3d93010e07b6")
+	)
+	(wire
+		(pts
+			(xy 45.72 154.94) (xy 28.575 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4500d282-8f76-4694-a1de-a2d53179bc79")
+	)
+	(wire
+		(pts
 			(xy 198.12 74.295) (xy 208.28 74.295)
 		)
 		(stroke
@@ -3623,6 +4028,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 173.99) (xy 60.96 178.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5264e868-cf46-4a2e-b1d6-981e81f54e8a")
+	)
+	(wire
+		(pts
+			(xy 139.7 174.625) (xy 139.7 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527308d6-6b1c-4529-a95e-e84fc0d4e967")
+	)
+	(wire
+		(pts
 			(xy 67.945 117.475) (xy 67.945 120.015)
 		)
 		(stroke
@@ -3703,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.995 177.165) (xy 69.85 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed79319-cc16-42f3-9c73-f46715538770")
+	)
+	(wire
+		(pts
 			(xy 118.11 112.395) (xy 118.11 114.935)
 		)
 		(stroke
@@ -3733,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.235 175.26) (xy 102.235 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c50279-23d6-46ee-9a91-6dff466effd7")
+	)
+	(wire
+		(pts
 			(xy 117.475 48.26) (xy 117.475 50.8)
 		)
 		(stroke
@@ -3740,6 +4185,16 @@
 			(type default)
 		)
 		(uuid "6307b8fa-28c6-4c03-9e47-28068ef87790")
+	)
+	(wire
+		(pts
+			(xy 256.54 126.365) (xy 256.54 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c3c1c4-f8d7-479c-86a8-f5f56e546211")
 	)
 	(wire
 		(pts
@@ -3783,6 +4238,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 177.8) (xy 29.21 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a8db12-a191-4428-89cb-777705b45dfa")
+	)
+	(wire
+		(pts
 			(xy 130.81 99.695) (xy 130.81 102.235)
 		)
 		(stroke
@@ -3800,6 +4265,16 @@
 			(type default)
 		)
 		(uuid "693be3a2-d3ec-488d-804d-bb5c757eed54")
+	)
+	(wire
+		(pts
+			(xy 28.575 154.94) (xy 28.575 156.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693fabf3-b982-40f2-bd31-9c610366bbcf")
 	)
 	(wire
 		(pts
@@ -3873,6 +4348,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 149.86) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70937b2d-aa3a-4e71-8290-e65c55ecc2b6")
+	)
+	(wire
+		(pts
 			(xy 130.175 33.02) (xy 130.175 35.56)
 		)
 		(stroke
@@ -3880,6 +4365,16 @@
 			(type default)
 		)
 		(uuid "71741360-243f-43ac-9fc3-087f02340879")
+	)
+	(wire
+		(pts
+			(xy 139.7 155.575) (xy 139.7 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d2e868-73a3-48ed-a215-31dd90c68db0")
 	)
 	(wire
 		(pts
@@ -3983,6 +4478,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.355 174.625) (xy 20.32 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8669e846-f6b1-4d52-85a1-455e8f8d605e")
+	)
+	(wire
+		(pts
 			(xy 130.175 38.1) (xy 130.175 40.64)
 		)
 		(stroke
@@ -4083,6 +4588,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.735 158.75) (xy 148.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3203d6-d392-4160-8887-1a94eeccaf13")
+	)
+	(wire
+		(pts
 			(xy 55.245 127.635) (xy 55.245 130.175)
 		)
 		(stroke
@@ -4113,6 +4628,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 146.685) (xy 191.77 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e656e0d-53ff-4514-ab56-334294a41139")
+	)
+	(wire
+		(pts
 			(xy 203.2 29.21) (xy 203.2 34.29)
 		)
 		(stroke
@@ -4130,6 +4655,36 @@
 			(type default)
 		)
 		(uuid "8fcfe104-11df-4645-9be0-6db6842901dc")
+	)
+	(wire
+		(pts
+			(xy 181.61 143.51) (xy 181.61 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903423ea-b1e3-4185-954e-59fecafed26c")
+	)
+	(wire
+		(pts
+			(xy 19.685 151.765) (xy 19.685 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e1464-a09a-4f15-b34c-882bd5070ab5")
+	)
+	(wire
+		(pts
+			(xy 219.075 146.685) (xy 229.235 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93255a0e-db08-4804-ace2-25129da260ea")
 	)
 	(wire
 		(pts
@@ -4160,6 +4715,16 @@
 			(type default)
 		)
 		(uuid "96286502-ea5b-4c39-bee8-10ac9e61783d")
+	)
+	(wire
+		(pts
+			(xy 111.125 178.435) (xy 111.125 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968c2f1c-8ea9-4052-9268-7c3ca06053e6")
 	)
 	(wire
 		(pts
@@ -4200,6 +4765,16 @@
 			(type default)
 		)
 		(uuid "9b1ae004-8c49-420d-bdbf-b55b8f8fa0cb")
+	)
+	(wire
+		(pts
+			(xy 128.27 178.435) (xy 111.125 178.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4605fe-75c9-416d-a449-1bf0e40e1fbf")
 	)
 	(wire
 		(pts
@@ -4363,6 +4938,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 127.635) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0ea104-9064-401a-856a-9a0161a2076b")
+	)
+	(wire
+		(pts
+			(xy 128.27 175.26) (xy 102.235 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac104427-5c29-4cae-a8e2-3b4af74b9018")
+	)
+	(wire
+		(pts
 			(xy 198.12 71.755) (xy 208.28 71.755)
 		)
 		(stroke
@@ -4433,6 +5028,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.735 155.575) (xy 139.7 155.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4595612-0286-4f68-9fe6-523576af4544")
+	)
+	(wire
+		(pts
 			(xy 55.245 132.715) (xy 55.245 135.255)
 		)
 		(stroke
@@ -4493,6 +5098,26 @@
 	)
 	(wire
 		(pts
+			(xy 206.375 143.51) (xy 206.375 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbb6226-7757-496c-b490-412aad0dd9d5")
+	)
+	(wire
+		(pts
+			(xy 69.85 177.165) (xy 69.85 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc40774-4fa4-4a72-85b3-c8e42ce976ec")
+	)
+	(wire
+		(pts
 			(xy 67.945 46.355) (xy 67.945 48.895)
 		)
 		(stroke
@@ -4543,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 143.51) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c449048c-48fb-4bf5-8c64-8f6d45d56d61")
+	)
+	(wire
+		(pts
 			(xy 130.175 68.58) (xy 130.175 71.12)
 		)
 		(stroke
@@ -4573,6 +5208,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.205 133.985) (xy 262.89 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c807acb0-63e7-41d6-a3bd-d5f739a9b5ee")
+	)
+	(wire
+		(pts
+			(xy 20.32 174.625) (xy 20.32 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94e463f-e1f1-43ae-9cea-d17c03c1da7f")
+	)
+	(wire
+		(pts
 			(xy 67.945 33.655) (xy 67.945 36.195)
 		)
 		(stroke
@@ -4600,6 +5255,16 @@
 			(type default)
 		)
 		(uuid "ccada7b7-7d3d-4070-b9b1-99f5112bf332")
+	)
+	(wire
+		(pts
+			(xy 205.74 133.985) (xy 228.6 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3f7339-317f-4847-bbe7-5ab5a17d7b74")
 	)
 	(wire
 		(pts
@@ -4640,6 +5305,16 @@
 			(type default)
 		)
 		(uuid "cfcc78b7-bbaf-4f90-8dfc-633dd0e8bfb1")
+	)
+	(wire
+		(pts
+			(xy 165.735 174.625) (xy 139.7 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21e89ab-3771-4b3a-9d92-5b398dcccb83")
 	)
 	(wire
 		(pts
@@ -4753,6 +5428,26 @@
 	)
 	(wire
 		(pts
+			(xy 168.275 127.635) (xy 168.275 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02ebb79-a089-48fb-bc3a-57b42a00c42f")
+	)
+	(wire
+		(pts
+			(xy 243.205 126.365) (xy 243.205 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3220e21-a101-4ce0-a11b-f8d7c0532ebd")
+	)
+	(wire
+		(pts
 			(xy 55.245 117.475) (xy 55.245 120.015)
 		)
 		(stroke
@@ -4793,6 +5488,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 130.81) (xy 228.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f376d54b-d910-45cf-b1e9-b4cd03987b22")
+	)
+	(wire
+		(pts
 			(xy 117.475 68.58) (xy 117.475 71.12)
 		)
 		(stroke
@@ -4810,6 +5515,16 @@
 			(type default)
 		)
 		(uuid "f6cad4e5-0045-42c7-bc51-750b9df586b4")
+	)
+	(wire
+		(pts
+			(xy 256.54 131.445) (xy 262.89 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79e819a-b71c-47d5-9662-82f41201d8da")
 	)
 	(wire
 		(pts
@@ -4884,6 +5599,28 @@
 		(uuid "013840ef-526a-4b0d-adb5-64385723a021")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.2921 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_1-"
+		(shape input)
+		(at 165.735 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "072932b1-1ab1-4f70-a936-6fb1a895c378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7397 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,6 +5762,94 @@
 			)
 		)
 	)
+	(global_label "D2-"
+		(shape input)
+		(at 46.355 174.625 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e74e4b-990f-4384-9c71-99b3c26b3aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.3921 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_1+"
+		(shape input)
+		(at 262.89 131.445 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b7d0c92-7cf0-41c2-9eb4-893ed9eccc6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8947 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D4+"
+		(shape input)
+		(at 128.27 178.435 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "450fd09a-aac3-4ebf-b3b7-d45d0646ee65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.3071 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_1+"
+		(shape input)
+		(at 165.735 174.625 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45ce9775-b453-4637-9a10-c58f0483ebfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7397 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D4+"
 		(shape input)
 		(at 49.53 137.795 180)
@@ -5060,6 +5885,28 @@
 		(uuid "5fbb211c-3b28-405e-ab17-48fb4e4ef375")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.2921 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D4+"
+		(shape input)
+		(at 229.235 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6705ca56-0b68-445e-8780-1bfcca46ed6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.2721 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,6 +5982,94 @@
 			)
 		)
 	)
+	(global_label "D_2+"
+		(shape input)
+		(at 165.735 155.575 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "754a0d7c-2578-4cc4-94ac-cda2de1807b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7397 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3+"
+		(shape input)
+		(at 86.995 177.165 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76cd2619-6c04-4592-aee9-2f6336c42226")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0321 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1+"
+		(shape input)
+		(at 45.72 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78461a50-2062-4a21-97fe-78b81426e9f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7571 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1+"
+		(shape input)
+		(at 191.135 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b6043b3-7457-4dbc-878c-1b2f627a685b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.1721 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D1+"
 		(shape input)
 		(at 112.395 137.795 180)
@@ -5153,6 +6088,94 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2+"
+		(shape input)
+		(at 191.77 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9498b573-38d6-49cf-a167-0a1c956a61b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.8071 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_2-"
+		(shape input)
+		(at 165.735 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "953ed011-a540-4936-9888-2ecc69926dca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7397 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1-"
+		(shape input)
+		(at 45.72 151.765 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99abf337-210c-4d24-ac78-a5207c37eb55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7571 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3-"
+		(shape input)
+		(at 86.995 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b318dae4-9dfd-43aa-b1a0-3af48923232d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0321 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5201,6 +6224,28 @@
 			)
 		)
 	)
+	(global_label "D4-"
+		(shape input)
+		(at 229.235 146.685 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdfa8d45-cc4f-4f47-b84a-dc5edb31ad0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.2721 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D3+"
 		(shape input)
 		(at 48.895 71.755 180)
@@ -5225,6 +6270,28 @@
 	)
 	(global_label "D4-"
 		(shape input)
+		(at 128.27 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4354e44-e52c-47bd-a549-2a05e9059512")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.3071 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D4-"
+		(shape input)
 		(at 73.66 94.615 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5236,6 +6303,94 @@
 		(uuid "cbde98e4-3abb-49ca-b300-9b2e7726df31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.6971 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3+"
+		(shape input)
+		(at 228.6 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10bc976-a724-43c9-85d2-9304970756ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.6371 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3-"
+		(shape input)
+		(at 228.6 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d82f571e-8993-42f5-8564-ee66aea75743")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.6371 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D_1-"
+		(shape input)
+		(at 262.89 133.985 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed23a4df-5734-4eb5-afcf-ac959441b4d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8947 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2+"
+		(shape input)
+		(at 46.355 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef837203-21b9-482e-b132-bafa853018a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.3921 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,6 +6419,249 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "D1-"
+		(shape input)
+		(at 191.135 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7dafd65-0d0d-45fe-a4d6-b20c38154766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.1721 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2-"
+		(shape input)
+		(at 191.77 146.685 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc4c8a9a-9d53-44f1-8a2f-83d355cd140a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.8071 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 28.575 164.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0312d1a4-4668-491b-8b61-398921d5e837")
+		(property "Reference" "#PWR064"
+			(at 28.575 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.575 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.575 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.575 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 28.575 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e571ca-0f24-4197-9119-d8cfded9aeee")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.275 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06176767-7e8f-471a-a9ac-1390349d7174")
+		(property "Reference" "TP2"
+			(at 170.18 123.0629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 125.6029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 173.355 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.355 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.275 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64581613-c173-4982-be8c-148b111f05e8")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 186.055 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08a8a87f-feea-4c8e-8389-513414470082")
+		(property "Reference" "#PWR067"
+			(at 60.96 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc944ae3-9464-4718-822d-7342a27178e1")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR067")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5328,6 +6726,73 @@
 			(project ""
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08bf9a92-320e-422f-877b-fb420b4ac2d7")
+		(property "Reference" "TP7"
+			(at 220.345 123.0629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.345 125.6029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 223.52 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61de66d4-90c3-47c7-bca7-bebc99ac8153")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5469,6 +6934,272 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 139.7 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d61914-5513-4a3d-85c4-b556d50e90ae")
+		(property "Reference" "#PWR071"
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ae9bea1-737b-4aaa-89ad-8a436c5de529")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.685 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "257dd200-8c18-4bb1-88db-fd2d33042067")
+		(property "Reference" "#PWR063"
+			(at 19.685 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.685 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.685 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.685 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b874d532-a74e-439a-ac34-23520876c848")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 219.075 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3022c2e4-aa1c-41ec-85a1-3d9142cb6614")
+		(property "Reference" "TP9"
+			(at 220.98 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 224.155 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.155 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 219.075 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f9364d-87ac-4632-9afa-12652ac0be39")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 206.375 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38d39577-36eb-4a3d-a100-467d8eaedf5c")
+		(property "Reference" "TP8"
+			(at 208.28 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 208.28 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 211.455 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 211.455 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 206.375 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be65bc2d-9146-43b0-8baa-30a19fdca084")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 263.525 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5594,6 +7325,94 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 19.685 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "480c78f7-a56b-4fc3-bf59-acbddad89557")
+		(property "Reference" "D4"
+			(at 22.225 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 22.225 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 19.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 19.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 19.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 19.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66eec70f-4db1-46bd-a3ff-edabfad79c1d")
+		)
+		(pin "1"
+			(uuid "861fe89b-c950-4c7f-b352-13a020dc1c14")
+		)
+		(instances
+			(project ""
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5798,6 +7617,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.205 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506683bf-b8ae-459d-9ea0-38ee1c69b5a9")
+		(property "Reference" "TP11"
+			(at 245.11 121.7929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 245.11 124.3329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 248.285 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.285 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.205 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d0f80ae-7b09-4744-9f2f-4fbc861df6ec")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 256.54 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53ba5369-3a03-459f-bd96-231cd44e19b9")
+		(property "Reference" "TP10"
+			(at 258.445 121.7929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 258.445 124.3329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 261.62 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0179c140-9214-4b27-a7fe-472b2d828fc1")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.125 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b2c052b-128c-4863-ba67-4bfccc573747")
+		(property "Reference" "#PWR070"
+			(at 111.125 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.125 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.125 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.125 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.125 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea5b1113-5ce6-4fb7-8eb1-0347cbf2686f")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 236.22 29.21 0)
 		(unit 1)
@@ -5858,6 +7877,94 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 148.59 164.465 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62feabf7-3990-43a6-9194-61eb5c134fda")
+		(property "Reference" "D15"
+			(at 151.13 163.1949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 151.13 165.7349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f52b0816-ac8b-4a36-9cfb-7a8ea9723737")
+		)
+		(pin "1"
+			(uuid "32be9711-206a-4c21-b1c6-52e088626ca9")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5990,6 +8097,94 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 139.7 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dc33bc8-9ddb-409b-bcb3-b687a475739e")
+		(property "Reference" "D12"
+			(at 142.24 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 142.24 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "072ef10a-66f5-4603-abb0-43d4c3b52408")
+		)
+		(pin "1"
+			(uuid "bae188e6-2a8d-42b8-a119-4d1538f8456a")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -6244,6 +8439,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 102.235 183.515 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7745cc40-3072-44ee-a5fa-e4fabc49e7fb")
+		(property "Reference" "D10"
+			(at 104.775 182.2449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 104.775 184.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 102.235 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.235 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 102.235 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.235 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.235 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfb1a519-bcf5-4ba3-be4c-d05903589465")
+		)
+		(pin "1"
+			(uuid "b1914e5a-eae8-47fa-8160-4b1adff20f88")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 39.37 0)
 		(unit 1)
@@ -6304,6 +8587,139 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac7de3f-a244-41ea-8c38-bce52dae4a31")
+		(property "Reference" "#PWR073"
+			(at 139.7 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25b1b0f-8a13-4c0c-9bae-da24c684b58a")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd02b21-5f05-4f78-adc8-3b1bf7e22ea1")
+		(property "Reference" "TP6"
+			(at 207.645 123.0629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 207.645 125.6029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 210.82 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5fe0767-09bf-4753-919d-0089845f92d6")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6668,6 +9084,72 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.235 187.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83fbaf9b-2c3b-4c9f-a133-375f60241c04")
+		(property "Reference" "#PWR069"
+			(at 102.235 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.235 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.235 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.235 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.235 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "761faf5c-1761-4af6-be40-6158a853576e")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7054,6 +9536,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e653d0-1849-42b4-b6a4-3a52af8f541a")
+		(property "Reference" "TP4"
+			(at 170.815 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.815 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "730a5e9d-1008-4bb4-ae7b-b0160433c764")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.975 127.635 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a250a6da-3957-4516-a826-53168e41181d")
+		(property "Reference" "TP1"
+			(at 182.88 123.0629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 182.88 125.6029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 186.055 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.055 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.975 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cca0b5ee-3fc3-463a-849a-6a7482494481")
+		)
+		(instances
+			(project ""
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f50d1c-5b83-4df1-8a89-c572bdd24e92")
+		(property "Reference" "#PWR068"
+			(at 69.85 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acbce658-161e-4a16-8e3b-f1dc840862a1")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 203.2 29.21 0)
 		(unit 1)
@@ -7180,6 +9862,72 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23420cc-0eb2-46d9-b22a-f8da90700429")
+		(property "Reference" "#PWR065"
+			(at 20.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afe53270-77d0-40f4-ae32-02531f53e737")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7318,6 +10066,226 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 148.59 187.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb87a83a-4e94-4d60-b9aa-247cd8d025fc")
+		(property "Reference" "#PWR072"
+			(at 148.59 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c371ab3c-c644-41b6-b079-fac8f9bb4c0c")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 168.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc29b7e8-a0bb-49bc-9cb2-f67655be5bb2")
+		(property "Reference" "#PWR074"
+			(at 148.59 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de436d7b-9e6a-4ace-8001-d7a9359140a8")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 20.32 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd2ded5e-f0ab-4699-9356-d4704b73c043")
+		(property "Reference" "D6"
+			(at 22.86 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 22.86 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "032d69e3-a0c3-423c-b2ae-4b853178940a")
+		)
+		(pin "1"
+			(uuid "c882173e-9fbe-4f37-83a7-c997b18a8d45")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 79.375 133.985 0)
 		(unit 1)
@@ -7384,6 +10352,249 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3956ef6-116c-4fec-a5c3-ddce33f40553")
+		(property "Reference" "TP5"
+			(at 183.515 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 183.515 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be9f323f-1e3f-4f3b-a455-a4e96fbb78eb")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 139.7 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c571bfed-c730-4d8c-9afc-9d0594d59849")
+		(property "Reference" "D14"
+			(at 142.24 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 142.24 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b59af6be-e112-48c2-9409-670089edd425")
+		)
+		(pin "1"
+			(uuid "e228078e-8720-4e5d-8aae-71faab08f9a7")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 148.59 183.515 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb5f587e-5dea-4eeb-b8df-09b297355324")
+		(property "Reference" "D13"
+			(at 151.13 182.2449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 151.13 184.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 148.59 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 148.59 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8df1181-23a9-4530-b27f-c9149d3ec906")
+		)
+		(pin "1"
+			(uuid "934ff8f1-597f-4740-afe1-1f6c3d9a8769")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 92.71 0)
 		(unit 1)
@@ -7444,6 +10655,182 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 29.21 183.515 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc434e8-c8b4-44e8-96c6-e68f05a01d0b")
+		(property "Reference" "D7"
+			(at 31.75 182.2449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 31.75 184.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 29.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 29.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 29.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 29.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3652df66-4d1b-4103-9aa9-9b4c82f60522")
+		)
+		(pin "1"
+			(uuid "b9db1b63-1655-463d-981b-86126ec8260b")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 60.96 182.245 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d485725c-9471-421d-8c6a-1dfa8ab1c34f")
+		(property "Reference" "D8"
+			(at 63.5 180.9749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 63.5 183.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 60.96 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 60.96 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 60.96 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "941c2a07-c644-4ce8-a222-4b85f96e6e6d")
+		)
+		(pin "1"
+			(uuid "6913133b-68ec-437a-a977-ac844f27a8d3")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7672,6 +11059,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 187.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e573f3bb-a999-4fd7-a0bd-d6636fabea99")
+		(property "Reference" "#PWR066"
+			(at 29.21 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7aea81b-77e3-438c-b598-2430fd3b3109")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 39.37 88.9 0)
 		(unit 1)
@@ -7866,6 +11319,270 @@
 			(project "KapiBara3_mainBoard"
 				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 69.85 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0c46da-a196-4544-a4a4-006586b21d38")
+		(property "Reference" "D9"
+			(at 72.39 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 72.39 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "930c4e57-868a-45ab-aa7b-c30abf20b6c5")
+		)
+		(pin "1"
+			(uuid "b38cfda0-6b56-4b91-83e3-1ab8b6ae8068")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 28.575 160.655 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd09c499-161a-4cf5-984e-718d439dae7b")
+		(property "Reference" "D5"
+			(at 31.115 159.3849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 31.115 161.9249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 28.575 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.575 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 28.575 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 28.575 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 28.575 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07724bbf-800d-440d-bde7-ee387367a792")
+		)
+		(pin "1"
+			(uuid "6763867b-7663-40c2-90de-e4fb7ffae64d")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 111.125 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd66fbf-9bdf-4684-a49b-671e66b47a37")
+		(property "Reference" "D11"
+			(at 113.665 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TVS"
+			(at 113.665 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 111.125 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.125 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODES DESD5V0U1BA-7"
+			(at 111.125 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.125 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.125 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48fd0ec8-2589-453a-b0f6-b36035a6474d")
+		)
+		(pin "1"
+			(uuid "0c5f4f97-1795-4839-83bc-67a2d5816d95")
+		)
+		(instances
+			(project "KapiBara3_mainBoard"
+				(path "/7dbc37b0-b6ec-456c-bf52-88ec04a976df/fc860c01-ad7b-4e5f-a9ca-4f609b7a13bb"
+					(reference "D11")
 					(unit 1)
 				)
 			)
