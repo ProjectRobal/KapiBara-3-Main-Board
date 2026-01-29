@@ -5795,10 +5795,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "17b56d0e-2230-4251-95e0-3354e70165fd")
+			(uuid "17b56d0e-2230-4251-95e0-3354e70165fe")
 		)
 		(pin "1"
-			(uuid "af569239-f0a7-4dc6-8ed6-0a0804060c8b")
+			(uuid "af569239-f0a7-4dc6-8ed6-0a0804060c8c")
 		)
 		(instances
 			(project "KapiBara3_mainBoard"
@@ -7471,7 +7471,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa90e7a2-e4ac-4ad6-9588-a4eb6ceb58d7")
+			(uuid "fa90e7a2-e4ac-4ad6-9588-a4eb6ceb58d8")
 		)
 		(instances
 			(project "KapiBara3_mainBoard"
@@ -8282,7 +8282,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "87aa4c58-b1d3-478d-a10c-0f272a8cc8e4")
+			(uuid "87aa4c58-b1d3-478d-a10c-0f272a8cc8e5")
 		)
 		(instances
 			(project "KapiBara3_mainBoard"
